@@ -41,8 +41,8 @@ class person{
 class student extends person{
     public function __construct(){
         $this->personName();
-        
-    }echo "I am a student<br>";
+        echo "I am a student";
+    }
 }
 
 
